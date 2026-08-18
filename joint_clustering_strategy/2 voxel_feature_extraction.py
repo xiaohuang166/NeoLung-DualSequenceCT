@@ -5,9 +5,9 @@ import pandas as pd
 import SimpleITK as sitk
 
 # ---------- Paths ----------
-mask_dir = r"F:\0624lung_data\gd\msk"
-feature_root = r"F:\0624lung_data\gd\large_feature_map7_2"
-output_dir = r"F:\0624lung_data\gd\cluster\excel_singlefeichuang"
+mask_dir = r"F:\msk"
+feature_root = r"F:\large_feature_map7"
+output_dir = r"F:\\excel"
 
 os.makedirs(output_dir, exist_ok=True)
 
