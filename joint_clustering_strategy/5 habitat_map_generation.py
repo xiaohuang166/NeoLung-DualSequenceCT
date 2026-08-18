@@ -6,9 +6,9 @@ import pandas as pd
 import SimpleITK as sitk
 
 # ---------- Paths ----------
-train_dir = r"...\excel_training_voxel_features"
-model_path = r"...\joint_kmeans_k3.pkl"
-output_dir = r"...\training_habitat_maps"
+train_dir = r"E:\excel_training_voxel_features"
+model_path = r"E:\joint_kmeans_k3.pkl"
+output_dir = r"E:\training_habitat_maps"
 
 os.makedirs(output_dir, exist_ok=True)
 
