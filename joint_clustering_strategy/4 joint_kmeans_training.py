@@ -5,8 +5,8 @@ import pandas as pd
 from sklearn.cluster import KMeans
 
 # ---------- Paths ----------
-train_dir = r"F:\0624lung_data\szl\cluster\excel_training_voxel_features"
-model_dir = r"F:\0624lung_data\szl\cluster\models"
+train_dir = r"F:\excel_training_voxel_features"
+model_dir = r"F:\models"
 
 os.makedirs(model_dir, exist_ok=True)
 
