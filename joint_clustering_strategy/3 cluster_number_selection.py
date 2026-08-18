@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score
 
 # ---------- Training voxel features ----------
-data_dir = r"F:\0624lung_data\szl\cluster\excel_training_voxel_features"
+data_dir = r"F:\excel_training_voxel_features"
 
 patient_data = []
 
