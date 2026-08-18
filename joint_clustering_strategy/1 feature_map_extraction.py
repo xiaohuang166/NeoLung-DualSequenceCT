@@ -5,11 +5,11 @@ import SimpleITK as sitk
 from radiomics import featureextractor
 
 # ---------- Paths ----------
-root = r"E:\RESULT\0624lung_data\szl"
+root = r"E:\RESULT\szl"
 image_dir = os.path.join(root, "image_1mm")
 mask_dir = os.path.join(root, "contrast_mask_1mm")
 output_dir = os.path.join(root, "feature_map_7")
-params_file = r"D:\CODE\habitat analysis\voxel_radiomics.yaml"
+params_file = r"D:\CODE\voxel_radiomics.yaml"
 
 os.makedirs(output_dir, exist_ok=True)
 
